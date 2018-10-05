@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One|Luckiest+Guy");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+#myBanner {
+  width: 100%; }
+
+.banner, .hollybanner {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%; }
+
+.banner {
+  background-image: url(../img/hollysdinerbanner3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 220px; }
+
+.banner-carte {
+  background-image: url(../img/bannermenu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 220px; }
+
+.banner-resto {
+  background-image: url(../img/restosbanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 220px; }
+
+.banner-galerie {
+  background-image: url(../img/galerybanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 220px; }
+
+.banner-contact {
+  background-image: url(../img/contactbanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 220px; }
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+  font-family: 'Bowlby One', cursive;
+  background-color: #d90a00 !important; }
+
+.bg {
+  background-color: #541b0c; }
+  .bg .navbar-brand {
+    margin-top: 10px; }
+    .bg .navbar-brand img {
+      margin-left: 50px; }
+
+.navbar-nav .active > .nav-link {
+  background-color: #d90a00 !important;
+  color: #fff !important;
+  border-radius: 5px; }
+
+.nav-link {
+  margin: 10px;
+  font-weight: bold; }
+  .nav-link:hover {
+    background-color: #d90a00;
+    color: #fff !important;
+    border-radius: 5px;
+    font-weight: bold; }
+
+.dropdown-menu {
+  background-color: #541b0c !important;
+  color: #fff !important;
+  border-radius: 20px;
+  font-weight: bold; }
+  .dropdown-menu:hover {
+    background-color: #fff;
+    color: #541b0c !important;
+    font-weight: bold; }
+  .dropdown-menu .dropdown-item {
+    color: #fff;
+    background-color: #541b0c;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center; }
+    .dropdown-menu .dropdown-item:hover {
+      color: #fff;
+      background-color: #d90a00; }
+
+.navbar .nav-item {
+  text-transform: uppercase;
+  font-size: 14px; }
+
+.navbar-brand img {
+  width: 90px; }
+
+/*.jumbotron{
+    margin:0;
+    padding:0;
+    margin-top:-50px;
+    background-color: $rouge !important;
+    height:100%;
+
+    img{
+        width:100%;
+        margin-top:-30px;
+        margin-bottom:-96px;
+    }
+
+}*/
+.badges {
+  background-color: #fff;
+  padding: 100px; }
+  .badges .list-group-item:hover {
+    background-color: #ffe6ab; }
+  .badges .list-group-item.active {
+    background-color: #d90a00;
+    border: none; }
+
+.tab-pane img {
+  width: 200px; }
+
+.section-cards {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 50px; }
+  .section-cards .cards {
+    padding-top: 50px; }
+    .section-cards .cards .card-title {
+      padding-top: 15px;
+      padding-left: 15px;
+      color: #541b0c;
+      font-weight: bold; }
+    .section-cards .cards .card-text {
+      padding: 15px; }
+    .section-cards .cards .card-footer {
+      background-color: #d90a00;
+      color: #fff; }
+
+footer {
+  background-color: #541b0c;
+  color: #fff; }
+  footer .footer {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    footer .footer img {
+      width: 250px; }
+    footer .footer .list {
+      list-style-type: none; }
+      footer .footer .list a {
+        text-decoration: none;
+        color: #fff; }
+    footer .footer .text {
+      padding-top: 20px; }
+
+.col-12 img {
+  width: 90%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px; }
+
+.pagination {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 30px; }
+  .pagination a {
+    background-color: #fff;
+    color: #d90a00;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+.galerie {
+  background-color: #fff;
+  height: 100%;
+  padding: 51.5px; }
+  .galerie h2 {
+    color: #d90a00;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px; }
+
+.page-item {
+  color: #fff !important; }
+  .page-item .page-item.active .page-link {
+    background-color: #d90a00 !important;
+    border: none; }
+
+.norestos {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 50px; }
+
+.mapcard {
+  margin: auto;
+  width: 400px;
+  height: 350px; }
+  .mapcard .map {
+    width: 400px; }
+
+.contactform {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 80px; }
+  .contactform .form-area {
+    width: 70%;
+    margin: auto;
+    font-weight: bold;
+    padding-top: 20px; }
+    .contactform .form-area label {
+      color: #541b0c; }
+  .contactform .btn {
+    background-color: #d90a00;
+    color: #fff; }
+
+@media all and (max-width: 1024px) {
+  .nav-link {
+    text-align: center; }
+  .cards img {
+    margin: auto; }
+  .banner {
+    background-image: url(../img/bannerresponsive.png);
+    padding: 210px; }
+  .banner-contact {
+    background-image: url(../img/contactbannerresponsive.png); }
+  .banner-carte {
+    background-image: url(../img/bannermenuresponsive.png); }
+  .form-area h3 {
+    padding-top: 20px; }
+  footer {
+    text-align: center; }
+    footer img {
+      margin-left: -20px; }
+    footer .text {
+      margin-left: 30px; }
+  .badges {
+    text-align: center; }
+    .badges .tab-pane img {
+      width: 300px; }
+  .galerie {
+    text-align: center; }
+    .galerie img {
+      width: 350px;
+      padding: 20px; }
+  .norestos {
+    padding: 20px; } }
